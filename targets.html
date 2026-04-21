@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Targets | SDG 4</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <style>
+        :root { --edu-blue: #003366; --bright-yellow: #FFD700; }
+        body { font-family: 'Montserrat', sans-serif; margin: 0; background: #f0f2f5; }
+        nav { background: var(--edu-blue); padding: 15px 8%; display: flex; justify-content: space-between; align-items: center; border-bottom: 3px solid var(--bright-yellow); }
+        .logo { font-family: 'Playfair Display', serif; color: var(--bright-yellow); font-size: 1.8rem; text-decoration: none; font-weight: bold; }
+        .nav-links a { color: white; text-decoration: none; margin-left: 25px; font-weight: bold; font-size: 0.8rem; }
+       
+        .header { background: var(--edu-blue); color: white; padding: 80px 10%; text-align: center; }
+        .container { padding: 80px 10%; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; }
+        .card { background: white; padding: 40px; border-radius: 15px; border-top: 6px solid var(--bright-yellow); box-shadow: 0 10px 30px rgba(0,0,0,0.05); transition: 0.3s; }
+        .card:hover { transform: translateY(-10px); }
+        .card h3 { color: var(--edu-blue); margin-bottom: 15px; font-family: 'Playfair Display', serif; }
+        .badge { background: var(--edu-blue); color: var(--bright-yellow); padding: 5px 12px; border-radius: 20px; font-size: 0.7rem; font-weight: bold; display: inline-block; margin-bottom: 10px; }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html" class="logo">SDG 4 GLOBAL</a>
+        <div class="nav-links">
+            <a href="index.html">Home</a> <a href="targets.html" style="color:var(--bright-yellow)">Targets</a> <a href="challenges.html">Challenges</a>
+        </div>
+    </nav>
+    <header class="header">
+        <h1 style="font-family:'Playfair Display'; font-size: 3rem;">Strategic 2030 Targets</h1>
+        <p>The roadmap to global educational equity.</p>
+    </header>
+    <div class="container">
+        <div class="card"><span class="badge">TARGET 4.1</span><h3>Universal Primary & Secondary</h3><p>Ensure all girls and boys complete free, equitable, and quality primary and secondary education.</p></div>
+        <div class="card"><span class="badge">TARGET 4.3</span><h3>Vocational & Tertiary</h3><p>Equal access for all to affordable and quality technical, vocational, and tertiary education, including university.</p></div>
+        <div class="card"><span class="badge">TARGET 4.5</span><h3>Gender Equality & Inclusion</h3><p>Eliminate gender disparities in education and ensure equal access for the vulnerable and persons with disabilities.</p></div>
+        <div class="card"><span class="badge">TARGET 4.7</span><h3>Sustainable Development</h3><p>Ensure all learners acquire knowledge and skills needed to promote sustainable development and global citizenship.</p></div>
+    </div>
+</body>
+</html>
